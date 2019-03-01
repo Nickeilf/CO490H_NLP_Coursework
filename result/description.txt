@@ -1,0 +1,11 @@
+This is submission based on tfidf features and logistic regression classifier.
+
+Data preprocessing: Stopwords removal, Name/link/hashtag removal, Stemming.
+
+Feature extraction: tfidf is extracted as input feature
+
+Model: The classifier is built with a logistic regression classifier.
+
+Parameter tuning: hyperparameter tuned on GridSearchCV.
+
+Evaluation: the result is evaluated with f1_macro_score, the same with the test set.
